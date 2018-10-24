@@ -225,6 +225,7 @@ html {
 body {
   overflow: hidden;
   font-size: 100%;
+  background-color: #1D1D1D;
 }
 
 nav {
