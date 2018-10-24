@@ -1,0 +1,96 @@
+/*===========================================
+ * Common
+ *===========================================*/
+body,
+html {
+	margin:0;
+	padding:0;
+}
+
+.container {
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	align-items:center;
+	justify-content: center;
+}
+a.gallery {
+
+}
+a.gallery:hover {
+	transition:all .3s;
+	transform:scale(1.1);
+}
+a.gallery img {
+
+}
+a.custom {
+	display:inline-block;
+	padding:10px;
+	color:#fff;
+	background:#000;
+	border:3px solid #fff;
+	box-shadow:0 0 10px rgba(0,0,0,0.2);
+	text-decoration:none;
+}
+a.custom:hover {
+	transition:all .3s;
+	transform:scale(1.1);
+}
+#inline,
+.inline {
+	padding:15px;
+	text-align:left;
+}
+/*===========================================
+ * owl nuevo
+ *===========================================*/
+
+
+
+ /*-----------------------------------------------------------------------------------*/
+ /*   Services
+ /*-----------------------------------------------------------------------------------*/
+
+ #services {
+   position: relative;
+   padding-bottom: 80px;
+ }
+
+ .owl-item {
+   float: left;
+ }
+ .services-block span {
+   position: relative;
+   display: block;
+ }
+
+ .services-block .separator {
+   margin: 0;
+   font-size: 13px;
+   line-height: 22px;
+ }
+
+
+
+ .services-carousel  .owl-stage-outer {
+   overflow: hidden;
+ }
+
+
+
+ .owl-nav {
+   display: none;
+ }
+
+
+/* submenu del skill *
+
+
+
+
+/*===========================================
+ * Media
+ *===========================================*/
+@media only screen and (max-width: 1024px) {
+}
