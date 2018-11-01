@@ -327,9 +327,13 @@
 			}
 		},
 
+
+
+
 		_onItemClick: function(e) {
 			e.preventDefault();
 			e.stopPropagation();
+
 
 			this._show($(e.currentTarget));
 		},

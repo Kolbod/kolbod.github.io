@@ -22,16 +22,7 @@
     $.stellar();
 
 
-    // SMOOTHSCROLL
-    $(function() {
-      $('.navbar-default a, #home a, footer a').on('click', function(event) {
-        var $anchor = $(this);
-          $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top - 49
-          }, 1000);
-            event.preventDefault();
-      });
-    });
+    
 
 //otro owlCarousel
 $('.services-carousel').owlCarousel({

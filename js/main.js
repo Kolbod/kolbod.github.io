@@ -85,10 +85,10 @@ jQuery(document).ready(function($) {
 					nextShowClass: 'fx-bounceInRight',
 					prevHideClass: 'fx-bounceOutRight',
 					nextHideClass: 'fx-bounceOutLeft',
-					gallerySwipeDesktop: false,
-					gallerySwipeMobile: true,
-					gallerySwipeThreshold: 1,
-					overlayClose: false,
+					gallerySwipeDesktop: true,
+					gallerySwipeMobile: false,
+					gallerySwipeThreshold: 50,
+					overlayClose: true,
 					showClass: 'fx-fadeIn',
 					hideClass: 'fx-fadeOut'
 
@@ -102,8 +102,8 @@ jQuery(document).ready(function($) {
 					nextHideClass: 'fx-bounceOutLeft',
 					gallerySwipeDesktop: false,
 					gallerySwipeMobile: true,
-					gallerySwipeThreshold: 1,
-					overlayClose: false,
+					gallerySwipeThreshold: 300,
+					overlayClose: true,
 					showClass: 'fx-fadeIn',
 					hideClass: 'fx-fadeOut'
 				});
