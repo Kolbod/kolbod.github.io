@@ -80,7 +80,14 @@ jQuery(document).ready(function($) {
             }
         });
 
-				$('.gallerya').flashy({
+    $('.gallerya').lightcase({
+	
+});
+
+		$('.galleryb').lightcase({
+
+});
+				/*$('.gallerya').flashy({
 					prevShowClass: 'fx-bounceInLeft',
 					nextShowClass: 'fx-bounceInRight',
 					prevHideClass: 'fx-bounceOutRight',
@@ -106,7 +113,7 @@ jQuery(document).ready(function($) {
 					overlayClose: true,
 					showClass: 'fx-fadeIn',
 					hideClass: 'fx-fadeOut'
-				});
+				});*/
 
 
 });
