@@ -135,7 +135,7 @@ URLhashListener:true,
                             $(".exchange").mouseover(function(){
                               $("remover").remove("remover");
                               $(".exp-est-img").attr('src',"img/exchange.png");
-                                $(".text-block-est").append("<remover><h3>Languajes</h3><p><b>Spanish - Native</b></p><p><b>English - Fluent</b><em> TOEFL 276/300, Rotary Club Rotary Exchange Student USA</em> - 2005 </p> </remover>");
+                                $(".text-block-est").append("<remover><h3>Languages</h3><p><b>Spanish - Native</b></p><p><b>English - Fluent</b><em> TOEFL 276/300, Rotary Club Rotary Exchange Student USA</em> - 2005 </p> </remover>");
                               });
 
                               $(".exchange").mouseleave(function(){
